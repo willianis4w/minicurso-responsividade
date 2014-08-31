@@ -1,0 +1,53 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #fff;
+	color: #fff;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	margin: 20px;
+}
+
+.container {
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+
+.smartphone,
+.tablet,
+.desktop {
+	display: none;
+	font-size: 24px;
+	margin: 5px;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #000;
+}
+
+div {
+	border: solid 1px white;
+	float: left;
+	height: 100px;
+	line-height: 100px;
+	margin: 10px 0;
+}
+
+.inteiro {
+	background: #000;
+	width: 100%;
+}
+
+.metade {
+	background: #333;
+	width: 50%;
+}
+
+.quarto {
+	background: #666;
+	width: 25%;
+}
