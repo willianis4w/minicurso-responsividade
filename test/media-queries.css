@@ -1,0 +1,26 @@
+/* Smartphone */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	body {
+		background: blue;
+		color: #fff;
+	}
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	body {
+		background: yellow;
+		color: #000;
+	}
+}
+
+/* PC */
+
+@media only screen and (min-width: 1024px) {
+	body {
+		background: green;
+		color: #fff;
+	}
+}
